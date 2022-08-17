@@ -2,8 +2,13 @@ import "./App.css";
 import { Contract, ethers } from "ethers";
 import { useEffect, useState } from "react";
 import contractABI from "./contractABI.json";
+import I1 from "./assets/images/1.png"
+import I2 from "./assets/images/2.png"
+import I3 from "./assets/images/3.png"
+import I4 from "./assets/images/4.png"
+import I5 from "./assets/images/5.png"
 
-const contractAddress = "<your-contract-address-here>";
+const contractAddress = "0xcEA2c487A62c2421dab44433362cb1796c9B5e48";
 
 function App() {
 
@@ -46,24 +51,24 @@ function App() {
 
   const data = [
     {
-      url: "./assets/images/1.png",
-      param: "handleMint('<your-metadata-pinata-link-here>')",
+      url: I1,
+      param: "handleMint('https://gateway.pinata.cloud/ipfs/QmXZ3TgRgd5EZEk2DhwGvjf8f6sQJNCrnHzrEw1oHufgnL/1.png')",
     },
     {
-      url: "./assets/images/2.png",
-      param: "handleMint('<your-metadata-pinata-link-here>')",
+      url: I2,
+      param: "handleMint('https://gateway.pinata.cloud/ipfs/QmXZ3TgRgd5EZEk2DhwGvjf8f6sQJNCrnHzrEw1oHufgnL/2.png')",
     },
     {
-      url: "./assets/images/3.png",
-      param: "handleMint('<your-metadata-pinata-link-here>')",
+      url: I3,
+      param: "handleMint('https://gateway.pinata.cloud/ipfs/QmXZ3TgRgd5EZEk2DhwGvjf8f6sQJNCrnHzrEw1oHufgnL/3.png')",
     },
     {
-      url: "./assets/images/4.png",
-      param: "handleMint('<your-metadata-pinata-link-here>')",
+      url: I4,
+      param: "handleMint('https://gateway.pinata.cloud/ipfs/QmXZ3TgRgd5EZEk2DhwGvjf8f6sQJNCrnHzrEw1oHufgnL/4.png')",
     },
     {
-      url: "./assets/images/5.png",
-      param: "handleMint('<your-metadata-pinata-link-here>')",
+      url: I5,
+      param: "handleMint('https://gateway.pinata.cloud/ipfs/QmXZ3TgRgd5EZEk2DhwGvjf8f6sQJNCrnHzrEw1oHufgnL/5.png')",
     },
   ];
 
